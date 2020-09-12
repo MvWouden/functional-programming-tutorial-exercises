@@ -1,2 +1,2 @@
-# Functional Programming Course
+# Functional Programming Tutorial Exercises
 This repository will host my tutorial exercises and examples
