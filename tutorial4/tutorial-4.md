@@ -129,8 +129,8 @@ Use a list comprehension and the function `zip` to write a Haskell function `loc
 Solution:
 
 ```haskell
-locations :: Int -> [Int] -> [Int]
-locations n xs = [i | (i, x) <- zip [0..(length xs)-1] xs, x == n]
+locations :: Integer -> [Integer] -> [Integer]
+locations n xs = [i | (x, i) <- zip xs [0..], x == n]
 ```
 
 <br>
